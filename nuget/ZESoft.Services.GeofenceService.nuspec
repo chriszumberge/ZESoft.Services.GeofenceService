@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ZESoft.Services.GeofenceService</id>
+    <version>1.0.0</version>
+    <title>ZESoft.Services.GeofenceService</title>
+    <authors>Christopher Zumberge</authors>
+    <owners>Christopher Zumberge</owners>
+    <language>en-US</language>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      Service for implementing geofencing and enter/exit event handling.
+    </description>
+    <summary>
+      Service for implementing geofencing and enter/exit event handling
+    </summary>
+    <releaseNotes></releaseNotes>
+    <tags></tags>
+    <!--<iconUrl></iconUrl>
+    <projectUrl></projectUrl>
+    <licenseUrl></licenseUrl>-->
+    <dependencies>
+      <!-- Platform independent/constant dependency -->
+      <group targetFramework="net">
+      </group>
+      <group targetFramework="win">
+      </group>
+      <group targetFramework="wp">
+      </group>
+      <group targetFramework="wpa">
+      </group>
+      <group targetFramework="netstandard2.0">
+        <dependency id="NETStandard.Library" version="2.0" />
+      </group>
+      <group targetFramework="netcoreapp2.0">
+      </group>
+      <group targetFramework="MonoAndroid10">
+      </group>
+      <group targetFramework="Xamarin.iOS10">
+      </group>
+      <group targetFramework="Xamarin.Mac20">
+      </group>
+      <group targetFramework="portable-net45+win+wpa81+wp80">
+      </group>
+      <group targetFramework="uap">
+      </group>
+      <group targetFramework="dotnet">
+      </group>
+      <group targetFramework="xamarintvos">
+      </group>
+      <group targetFramework="xamarinwatchos">
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Mono.Android" targetFramework="MonoAndroid" />
+      <frameworkAssembly assemblyName="Xamarin.iOS" targetFramework="Xamarin.iOS10"/>
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <!--Core-->
+    <!--Net Standard-->
+    <!--lib\netstandard2.0-->
+    <file src="..\src\ZESoft.Services.GeofenceService.Abstractions\bin\Release\ZESoft.Services.GeofenceService.Abstractions.*" target="lib\netstandard2.0" />
+
+    <!--Xamarin.Android-->
+    <!--lib\MonoAndroid10-->
+
+    <!--Xamarin.iOS Unified-->
+    <!--lib\Xamarin.iOS10-->
+
+    <!--Xamarin.Mac-->
+    <!--lib\Xamarin.Mac20-->
+
+    <!--tvOS-->
+    <!--lib\XamarinTVOS-->
+
+    <!--UWP-->
+    <!--lib\UAP10-->
+
+    <!--Net 4.5-->
+    <!--lib\net45-->
+
+    <!--Net Core 2.0-->
+    <!--lib\netcoreapp2.0-->
+    
+    <!--PCL (Deprecated)-->
+    <!--lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10-->
+
+    <!--Dot Net (deprecated-->
+    <!--lib\dotnet-->
+  </files>
+</package>
